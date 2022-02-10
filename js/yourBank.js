@@ -21,27 +21,6 @@ const tottalWithdrow = document.getElementById("tottalWithdrow");
     withdrowAmount.value = "";
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.getElementById("depositAmount").addEventListener("mouseenter",function(){
     let depositAmount = document.getElementById("depositAmount").focus();
 })
