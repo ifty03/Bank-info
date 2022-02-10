@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bant acces</title>
+
+        <!-- talwind css link -->
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-50">
+    <h1 class="text-4xl font-bold font-serif text-center mt-16 text-rose-600 ">Your Many Many <span class="text-green-4600">Mooony !!</span></h1>
+    <!-- balance section -->
+    <section class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-3/4 mx-auto gap-8 mt-16">
+        <div class=" bg-lime-500 p-12 rounded-md drop-shadow-xl">
+            <h1 class="text-2xl font-bold text-white">Deposit</h1>
+            <h1 class="text-3xl text-white">$<span id="tottalDeposit">00</span></h1>
+        </div>
+        <div class=" bg-red-400 p-12 rounded-md drop-shadow-xl">
+            <h1 class="text-white text-2xl font-bold">Withdrow</h1>
+            <h1 class="text-3xl text-white">$ <span id="tottalWithdrow">00</span> </h1>
+        </div>
+        <div class=" bg-blue-400 p-12 rounded-md drop-shadow-xl">
+            <h1 class="text-2xl font-bold text-white">Balance</h1>
+            <h1 class="text-3xl text-white">$ <span id="tottalBalance">00</span></h1>
+        </div>
+    </section>
+
+    <!-- Add Mony section -->
+
+    <section class="grid sm:grid-cols-1 md:grid-cols-2 w-3/4 mx-auto gap-8 mt-8">
+
+       <!--  Deposit  -->
+
+        <div class="bg-fuchsia-200 p-5 px-7 pb-7 mt-5 rounded-md drop-shadow-xl">
+            <h3 class="text-xl text-rose-500 font-bold">How much deposit</h3>
+            <input class=" rounded-md w-2/3 block mt-5 mb-7 border-2 px-2 py-1 drop-shadow-lg" type="number" name="" id="depositAmount" placeholder="$ your amount">
+            <button id="depositBtn" type="button" class="bg-gradient-to-r from-pink-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... py-2 px-3 text-white font-bold rounded-md drop-shadow-lg">
+                Deposit Now
+              </button>
+        </div>
+
+        <!-- Withdrow -->
+
+        <div class="bg-fuchsia-200 p-5 px-7 pb-7 mt-5 rounded-md drop-shadow-xl">
+            <h3 class="text-xl text-rose-500 font-bold">How much Withdrow</h3>
+            <input class=" rounded-md w-2/3 block mt-5 mb-7 border-2 px-2 py-1 drop-shadow-lg" type="number" name="" id="withdrowAmount" placeholder="$ your amount">
+            <button id="withdrowBtn" type="button" class="bg-gradient-to-r from-pink-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... py-2 px-3 text-white font-bold rounded-md drop-shadow-lg">
+                Withdrow Now
+              </button>
+        </div>
+
+    </section>
+    
+    <!-- footer -->
+
+    <footer class="my-12">
+        <p class="text-center opacity-50">Copyright © 2022 Programming-hero.com</p>
+    </footer>
+
+    <script src="js/yourBank.js"></script>
+</body>
+</html>
